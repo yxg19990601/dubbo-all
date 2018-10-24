@@ -1,6 +1,6 @@
-package com.xucm.dubbo.service;
+package com.xucm.dubbo.api.service;
 
-import com.xucm.dubbo.entity.UserEntity;
+import com.xucm.dubbo.api.entity.UserEntity;
 
 import java.util.List;
 

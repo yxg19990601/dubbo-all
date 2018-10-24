@@ -1,6 +1,11 @@
-package com.xucm.dubbo.entity;
+package com.xucm.dubbo.api.entity;
 
 import java.io.Serializable;
+
+/**
+ * @Author YXG
+ * @Date 2018-10-24 20:14
+ */
 
 /**
  * @Author YXG
@@ -37,5 +42,12 @@ public class UserEntity implements Serializable {
         this.userAddr = userAddr;
     }
 
-
+    @Override
+    public String toString() {
+        return "UserEntity{" +
+                "userName='" + userName + '\'' +
+                ", userId=" + userId +
+                ", userAddr='" + userAddr + '\'' +
+                '}';
+    }
 }

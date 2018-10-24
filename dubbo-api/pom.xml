@@ -9,9 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>user-service-provider</artifactId>
+    <artifactId>dubbo-api</artifactId>
 
-    <name>user-service-provider</name>
+    <name>dubbo-api</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 

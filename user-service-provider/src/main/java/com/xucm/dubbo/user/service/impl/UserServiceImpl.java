@@ -1,7 +1,8 @@
-package com.xucm.dubbo.service.impl;
+package com.xucm.dubbo.user.service.impl;
 
-import com.xucm.dubbo.entity.UserEntity;
-import com.xucm.dubbo.service.UserService;
+import com.xucm.dubbo.api.entity.UserEntity;
+import com.xucm.dubbo.api.service.UserService;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,6 +11,8 @@ import java.util.List;
  * @Author YXG
  * @Date 2018-10-23 21:50
  */
+
+@Service
 public class UserServiceImpl implements UserService {
 
     @Override
@@ -22,7 +25,7 @@ public class UserServiceImpl implements UserService {
         userEntity.setUserName("杨旭光");
 
         UserEntity userEntity2 = new UserEntity();
-        userEntity2.setUserAddr("深圳天安云谷");
+        userEntity2.setUserAddr("上海");
         userEntity2.setUserId(1);
         userEntity2.setUserName("杨旭光");
 
