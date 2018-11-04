@@ -1,0 +1,15 @@
+
+
+dubbo:
+  application:
+    name: order-service-provider
+  registry:
+    address: 112.74.193.80:2181
+    protocol: zookeeper
+  monitor:
+    protocol: registry
+  protocol:
+    name: dubbo
+    port: 20883
+server:
+  port: 8083

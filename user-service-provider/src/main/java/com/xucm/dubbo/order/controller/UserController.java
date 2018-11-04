@@ -1,6 +1,5 @@
-package com.xucm.dubbo.user.controller;
+package com.xucm.dubbo.order.controller;
 
-import com.xucm.dubbo.api.entity.UserEntity;
 import org.springframework.stereotype.Controller;
 
 /**

@@ -1,4 +1,4 @@
-package com.xucm.dubbo.user;
+package com.xucm.dubbo.order;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

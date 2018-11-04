@@ -1,6 +1,7 @@
 package com.xucm.dubbo.api.service;
 
 import com.xucm.dubbo.api.entity.OrderEntity;
+import com.xucm.dubbo.api.entity.UserEntity;
 
 /**
  * @Author YXG
@@ -15,4 +16,7 @@ public interface OrderService {
      * @return
      */
     public OrderEntity getOrderByUserId(Integer userId);
+
+
+    public UserEntity getUserEntity();
 }

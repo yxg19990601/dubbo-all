@@ -26,4 +26,9 @@ public class OrderServiceImpl implements OrderService {
         System.out.println("userEntity = " + userEntity);
         return null;
     }
+
+    @Override
+    public UserEntity getUserEntity() {
+        return null;
+    }
 }

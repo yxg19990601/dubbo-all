@@ -1,4 +1,4 @@
-package com.xucm.dubbo.user;
+package com.xucm.dubbo.order;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

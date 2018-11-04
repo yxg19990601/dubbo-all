@@ -21,10 +21,24 @@
         <module>user-service-provider</module>
         <module>dubbo-api</module>
         <module>order-service-consumer</module>
+        <module>boot-user-service-provider</module>
+		<module>boot-order-service-consumer</module>
+		
     </modules>
 
 
+    <dependencyManagement>
 
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Finchley.SR2</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 
 </project>

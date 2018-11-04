@@ -1,4 +1,4 @@
-package com.xucm.dubbo.user.service.impl;
+package com.xucm.dubbo.order.service.impl;
 
 import com.xucm.dubbo.api.entity.UserEntity;
 import com.xucm.dubbo.api.service.UserService;
